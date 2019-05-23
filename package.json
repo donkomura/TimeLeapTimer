@@ -1,0 +1,11 @@
+{
+  "name": "timeleaptime",
+  "version": "1.0.0",
+  "description": "(時をかける少女のあの時計を表示するだけのアプリ)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kage",
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'timeleap';
+    src: url(./font/tl100/timeleap100.ttf);
+}
+
+body {
+    color: rgba(211, 9, 9);
+}
+
+/* id="clock_frame" のdiv要素 */
+div#clock_frame {
+    /* 横幅を親要素であるbodyの100%(同じ幅)にする */
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+}
+
+/* span要素のデフォルト */
+span {
+    /* 本来はインライン要素であるspanをブロック要素として扱う */
+    display: block;
+    /* 横幅を親要素であるdivの85%にする */
+    width: 85%;
+    text-shadow: 0px 0px 10px rgb(255, 0, 0);
+    font-family: 'timeleap';
+}
+
+span#clock_time {
+    /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の2倍にする */
+    font-size: 0.8em;
+}
